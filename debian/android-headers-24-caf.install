@@ -1,0 +1,2 @@
+debian/android-headers-24-caf.pc usr/lib/pkgconfig/
+24-caf/* usr/include/android-24-caf
