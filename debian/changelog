@@ -1,3 +1,9 @@
+android-headers (27.0ubports1) xenial; urgency=medium
+
+  * Import android-27 headers
+
+ -- TheKit <nekit1000@gmail.com>  Tue, 05 Mar 2019 00:35:41 +0100
+
 android-headers (24.0ubports5) xenial; urgency=medium
 
   * Import android-24
