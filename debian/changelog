@@ -1,3 +1,9 @@
+android-headers (27.0ubports2) xenial; urgency=medium
+
+  * Implement FP_ATTRIB for audio.h in android-24, -24-caf and -27
+
+ -- Ratchanan Srirattanamet <ratchanan@ubports.com>  Tue, 29 Oct 2019 21:05:14 +0700
+
 android-headers (27.0ubports1) xenial; urgency=medium
 
   * Import android-27 headers
