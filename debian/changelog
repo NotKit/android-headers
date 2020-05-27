@@ -1,3 +1,9 @@
+android-headers (28.0ubports1) xenial; urgency=medium
+
+  * Import Halium 9/android-28 headers
+
+ -- TheKit <nekit1000@gmail.com>  Sat, 21 Mar 2020 22:16:40 +0100
+
 android-headers (27.0ubports2) xenial; urgency=medium
 
   * Implement FP_ATTRIB for audio.h in android-24, -24-caf and -27
