@@ -1,3 +1,9 @@
+android-headers (29.0ubports1) xenial; urgency=medium
+
+  * Import android-29 headers
+
+ -- TheKit <nekit1000@gmail.com>  Wed, 09 Dec 2020 23:37:23 +0200
+
 android-headers (28.0ubports1) xenial; urgency=medium
 
   * Import Halium 9/android-28 headers
