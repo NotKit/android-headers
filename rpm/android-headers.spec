@@ -38,6 +38,18 @@ includedir=%{_prefix}/include
 Cflags: -I\${includedir}/android
 EOF
 
+mkdir -p %{buildroot}/%{_prefix}/include/droid-devel
+cat << EOF > %{buildroot}/%{_prefix}/include/droid-devel/hw-release.vars
+MER_HA_DEVICE=halium
+MER_HA_VENDOR=halium
+MER_HA_VERSION="11.0 (aarch64,devel)"
+MER_HA_VERSION_ID=11.0
+MER_HA_PRETTY_NAME="Halium 11.0 (aarch64,devel)"
+MER_HA_SAILFISH_BUILD=1
+MER_HA_SAILFISH_FLAVOUR=devel
+MER_HA_HOME_URL="https://sailfishos.org/"
+EOF
+
 # Clean up
 %fdupes %{buildroot}/%{_prefix}
 
